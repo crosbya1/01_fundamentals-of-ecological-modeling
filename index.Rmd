@@ -1,0 +1,14 @@
+---
+title: "Fundamentals of Ecological Modeling"
+subtitle: "Where are we going with this class?"
+author: "Andy Crosby"
+institute: "University of Alberta"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
