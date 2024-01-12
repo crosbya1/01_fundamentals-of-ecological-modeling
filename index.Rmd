@@ -39,11 +39,75 @@ layout: false
 
 ## Very often, it is the study of of the distribution and abundance of plants and animals  
 
-## I would say, the study of the ***spatial variability*** in the distribution and abundance of plant and animals
+## I would say, the study of the ***spatio-temporal variability*** in the distribution and abundance of plant and animals
 
 * ### How many are there? 
 * ### How are they distributed? 
 * ### ***Why*** do we see this particular pattern? 
 
---- 
+???
+Ecology is the study of the relationships among living organisms and the physical environment. These interactions can include:
+
+Habitat selection
+Predator-prey dynamics
+Trophic cascades
+Disturbance and succession dynamics...
+Ecologists study Ecology (duh!)
+
+One of the dominant branches of ecology is: the study of spatio-temporal variability in the distrubution and abundance of species (Krebs 2003].
+
+Many research questions involve asking:
+
+How many are there?
+Where are they?
+Why do we see this particular pattern? 
+
+Don't forget about the importance of time, e.g.:
+* There are more this year then last year 
+
+* They are here in the fall but not the winter 
+
+---
+
+# Modeling as a Way of Doing Science  
+
+## Science is a process for learning about nature in which competing ideas about how the world works are measured against observations (Feynman 1965, 1985)  
+
+## Classical statistics are built on certain assumptions:  
+
+* ### Experimental conditions
+
+* ### Statistical hypothesis testing 
+
+## Often referred to as 'design-based inference' See: [Gregoire (1998)](https://cdnsciencepub.com/doi/10.1139/x98-166)
+
+???
+Replication where a single factor is manipulated while everything else is controlled 
+
+Statistical Hypothesis testing: normally distributed errors, iid, 
+
+
+---
+# Why used models (instead of experiments): [Hilboun and Mangel Ch. 1](https://press.princeton.edu/books/paperback/9780691034973/the-ecological-detective)
+
+* ## Long time scales 
+
+* ## Poor replication  
+
+* ## Inability to control 
+
+## Use observations, rather than experiments, to assess support for hypotheses  
+## Challenge is in generating system dynamics ([MacKenzie et al. 2018](https://www.sciencedirect.com/book/9780124071971/occupancy-estimation-and-modeling#book-description))
+
+
+???
+
+Long time scales: Many ecological systems have time scales of years or decades
+
+Many ecological systems are difficult to replicate, and replicates are rarely, if ever, perfect 
+
+One can rarely, if ever, control all aspects of an ecological experiment 
+Model-based inference: see Gregoirs (1998)
+
+---
 
