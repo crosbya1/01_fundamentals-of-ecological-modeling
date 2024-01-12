@@ -7,8 +7,43 @@ date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
+    seal: false
     nature:
+      ratio:  '16:9'
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      self_contained: true
 ---
+layout: true
+
+background-image: url('niche-comparison.png'), url('blbw.png')
+background-size: 60%, 20%
+background-position: left bottom, top left
+---
+class: center, right
+
+# Fundamentals of Ecological Modeling  
+
+### E.g., Where are we going in this class? 
+
+## Andy Crosby  
+### January 15, 2024  
+<br />
+
+## <a href="https://colab.research.google.com/drive/1n_sbJbTRXA8sT1gDfcKKCPE9IPWhA05x#scrollTo=51f4ec3e-034c-4ea2-bb2d-7b3986778353">Google CoLab Lecture Link</a>
+---
+layout: false 
+
+# What is Ecology? 
+
+## Very often, it is the study of of the distribution and abundance of plants and animals  
+
+## I would say, the study of the ***spatial variability*** in the distribution and abundance of plant and animals
+
+* ### How many are there? 
+* ### How many are distributed? 
+* ### ***Why*** do we see this particular pattern? 
+
+--- 
+
