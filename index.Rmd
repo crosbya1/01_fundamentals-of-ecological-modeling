@@ -42,7 +42,7 @@ layout: false
 ## I would say, the study of the ***spatial variability*** in the distribution and abundance of plant and animals
 
 * ### How many are there? 
-* ### How many are distributed? 
+* ### How are they distributed? 
 * ### ***Why*** do we see this particular pattern? 
 
 --- 
