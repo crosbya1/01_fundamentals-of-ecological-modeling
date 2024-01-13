@@ -137,10 +137,7 @@ text(5.5, 200,
 ]
 
 .pull-right[
-```{r ref.label = 'poisson-random', echo = FALSE}
-plot(table(rpois(1000, 2)), lwd = 3, ylab = "Frequency", xlab = "Abundance", main = "Poisson distribution")
-text(5.5, 200, expression(lambda == 2), cex = 3)
-```
+![](index_files/figure-html/poisson-random-1.png)
 ]
 
 ???
