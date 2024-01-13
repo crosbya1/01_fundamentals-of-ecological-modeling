@@ -36,11 +36,23 @@ layout: false
 
 ## Very often, it is the study of of the distribution and abundance of plants and animals  
 
-## I would say, the study of the ***spatio-temporal variability*** in the distribution and abundance of plant and animals
-
+## ***Spatio-temporal variability*** 
+.pull-left[
+### Space 
 * ### How many are there? 
 * ### How are they distributed? 
-* ### ***Why*** do we see this particular pattern? 
+]
+.pull-right[
+### Time 
+* ### Are there more this year than last?
+* ### Are they here in winter but not summer?
+]
+--
+.center[
+## ***Why*** do we see this particular pattern? 
+]
+
+
 
 ???
 Ecology is the study of the relationships among living organisms and the physical environment. These interactions can include:
@@ -72,17 +84,26 @@ Don't forget about the importance of time, e.g.:
 
 ## Classical statistics are built on certain assumptions:  
 
-* ### Experimental conditions
-
-* ### Statistical hypothesis testing 
+* Experimental conditions with replication and randomization
+* Few variables, with controls 
+* Statistical hypothesis testing 
 
 ## Often referred to as 'design-based inference' See: [Gregoire (1998)](https://cdnsciencepub.com/doi/10.1139/x98-166)
 
 ???
-Replication where a single factor is manipulated while everything else is controlled 
 
-Statistical Hypothesis testing: normally distributed errors, iid, 
+We often (not always) use statistics in the conduct of science for 2 reasons:
+1.  We can rarely ever make observations on the entire population of interest
+2.  We can't always observe the thing we are interested in
 
+Within a properly designed sampling framework, statistics allows us to make *inferences* about how the world works
+
+Classical statistics are built on certain assumptions:
+* Assume experimental conditions with replication
+* One or a few variables, with everything else controlled for
+* Tends to rely on statistical hypothesis testing (i.e., the all-knowing *P-value*)
+
+In most real-world ecological questions, doing classical experiments that contrast data with a single null hypothesis is impossible.
 
 ---
 # Why used models (instead of experiments): [Hilboun and Mangel Ch. 1](https://press.princeton.edu/books/paperback/9780691034973/the-ecological-detective)
@@ -94,7 +115,7 @@ Statistical Hypothesis testing: normally distributed errors, iid,
 * ## Inability to control 
 
 ## Use observations, rather than experiments, to assess support for hypotheses  
-## Challenge is in generating system dynamics ([MacKenzie et al. 2018](https://www.sciencedirect.com/book/9780124071971/occupancy-estimation-and-modeling#book-description))
+## Challenge is in generating system dynamics 
 
 
 ???
@@ -107,6 +128,41 @@ One can rarely, if ever, control all aspects of an ecological experiment
 Model-based inference: see Gregoirs (1998)
 
 ---
+# System Dynamics and Inference ([MacKenzie et al. 2018](https://www.sciencedirect.com/book/9780124071971/occupancy-estimation-and-modeling#book-description))
+
+![](inference.png)
+???
+Inference: a conclusion reached from evidence and reasoning (Oxford)
+System Dynamics: Changing something within the system and measuring the response to that change.  
+* The think you change is the predictor variable  
+* Measure the change in both the predictor and the response 
+* Draw conclusions (i.e. make inferences) about the relationship between the predictor and the response
+
+The strength of the inference you are able to make depends on how you generate the system dynamics 
+
+## **Manipulative experiments:**  
+* replication  - allows estimation of error 
+* randomization - protects against bias
+* application of treatments - reflect hypotheses about causal factors  
+One treatment is typically a control (no treatment) 
+
+## Example of randomized medical trial 
+
+## **Constrained design (quasi-experiments)**  
+* Lack replication or randomization or both  
+* True in a lot of field studies  
+
+## Example of my masters research 
+
+## **Obeservational Studies:**  
+* Can't manipulate anything 
+* System dynamics from spatial and/or temporal variation in predictor variable(s)  
+
+
+
+## Example of typical macroecology study 
+
+
 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
