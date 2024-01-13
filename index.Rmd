@@ -125,7 +125,7 @@ We are saying that the count of something (e.g., birds at a point count station)
 ---
 # We can visualize this with a simple simulation
 .pull-left[
-```{r 'poisson random', fig.show = 'hide'}
+```{r poisson-random, fig.show = 'hide'}
 plot(table(rpois(1000, 2)), 
      lwd = 3, 
      ylab = "Frequency", 
@@ -136,10 +136,8 @@ text(5.5, 200,
 ```
 ]
 
-
-
 .pull-right[
-```{r, echo = FALSE}
+```{r ref.label = 'poisson-random', echo = FALSE}
 plot(table(rpois(1000, 2)), lwd = 3, ylab = "Frequency", xlab = "Abundance", main = "Poisson distribution")
 text(5.5, 200, expression(lambda == 2), cex = 3)
 ```
