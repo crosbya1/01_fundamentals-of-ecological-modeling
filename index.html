@@ -4,7 +4,7 @@
     <title>Fundamentals of Ecological Modeling</title>
     <meta charset="utf-8" />
     <meta name="author" content="Andy Crosby" />
-    <meta name="date" content="2024-01-13" />
+    <meta name="date" content="2024-01-14" />
     <script src="libs/header-attrs-2.25/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
@@ -145,13 +145,13 @@ If we wanted to evaluate this model against observations, we would do point coun
 
 
 ---
-# Why used models (instead of experiments): [Hilboun and Mangel Ch. 1](https://press.princeton.edu/books/paperback/9780691034973/the-ecological-detective)
+# Why use models (instead of experiments): [Hilboun and Mangel Ch. 1](https://press.princeton.edu/books/paperback/9780691034973/the-ecological-detective)
 
-* ## Long time scales 
+- ## Long time scales 
 
-* ## Poor replication  
+- ## Poor replication  
 
-* ## Inability to control 
+- ## Inability to control 
 
 ## Use observations, rather than experiments, to assess support for hypotheses  
 ## Challenge is in generating system dynamics 
@@ -164,7 +164,7 @@ Long time scales: Many ecological systems have time scales of years or decades
 Many ecological systems are difficult to replicate, and replicates are rarely, if ever, perfect 
 
 One can rarely, if ever, control all aspects of an ecological experiment 
-Model-based inference: see Gregoirs (1998)
+
 
 ---
 # System Dynamics and Inference ([MacKenzie et al. 2018](https://www.sciencedirect.com/book/9780124071971/occupancy-estimation-and-modeling#book-description))
@@ -173,7 +173,7 @@ Model-based inference: see Gregoirs (1998)
 ???
 Inference: a conclusion reached from evidence and reasoning (Oxford)
 System Dynamics: Changing something within the system and measuring the response to that change.  
-* The think you change is the predictor variable  
+* The thing you change is the predictor variable  
 * Measure the change in both the predictor and the response 
 * Draw conclusions (i.e. make inferences) about the relationship between the predictor and the response
 
@@ -196,11 +196,110 @@ One treatment is typically a control (no treatment)
 ## **Obeservational Studies:**  
 * Can't manipulate anything 
 * System dynamics from spatial and/or temporal variation in predictor variable(s)  
-
-
+  - *a priori* hypotheses - predictions of what the pattern should be if a hypothesis is true  
+  - *a posteriori* hypotheses - explanations after the results are seen  
+The problem with *a posteriori* hypotheses is that there can often be a number of alternative explanations for why a particular pattern is seen. 
 
 ## Example of typical macroecology study 
 
+---
+# **Remember:** 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+
+.center[
+# **There are always ecological assumptions *implicit within* your model**
+]
+
+---
+# Some Key definitions 
+## **Population:** the complete set of sampling units 
+## **Sample:** subset of the population observed  
+## **Parameter:** Characteristic of the population  
+## **Parameter estimator:** e.g. `\(\mu\)` vs. `\(\hat{\mu}\)`  
+## **Parameter estimate:** e.g. `\(\hat{\mu}=12\)`
+## **State variable:** variable to quantify current status (e.g. population size)
+
+???
+What is the population of interests? 
+* sometimes not the species, but the area that is sampled. 
+
+Estimator - an equation or process applied to the data to produce an estimate of the parameter 
+
+State variable - variable used to quantify the current status of a population or community  
+* e.g., abundance, species richness, population trend 
+
+
+---
+# General principles of sampling animal populations
+*sensu* [Yoccoz et al. 2001](https://www.sciencedirect.com/science/article/pii/S0169534701022054?via%3Dihub)
+
+## **Why?**
+## First, you need a well-defined objective! 
+
+* ## Science 
+  - ### Discriminating among competing hypotheses
+
+* ## Management and Conservation 
+  - ### Estimating sytem state 
+
+---
+# Science  
+## Confronting model-based predictions with data: e.g., 
+
+* ## Is recruitment density dependent?
+
+### `$$r=N_fb$$`  
+## or
+### `$$r=N_fb(N_f)$$`  
+
+## Which model fits the data better? 
+
+???
+where `\(r\)` is the number of recruits to a population, `\(N_f\)` is the number of females in the population, and `\(b\)` is the average number of recruits per female. Thus, `\(b(N_f)\)` says that `\(b\)` is a function of the number of females in the population.
+
+---
+# Management and Conservation  
+## Estimating state variables - 3 distinct purposes ([Yoccoz et al. 2001](https://www.sciencedirect.com/science/article/pii/S0169534701022054?via%3Dihub)) 
+
+## 1. Making state-dependent management decisions 
+ - ### Change harvest regulations? 
+ 
+## 2. Inclusion in 'objective functions' 
+  - ### Are management objectives being met? 
+  
+## 3. Predicting system response to management 
+
+## All require reliable estimates of system state
+
+---
+# **What?**
+## Which state variables to measure? 
+
+* ### Abundance? 
+* ### Occupancy rate? 
+* ### Survival rate? 
+* ### Vocalization rate? 
+* ### Species richness?
+
+---
+# **How?**  
+## This is your smampling design 
+
+## Amost always involves ***SAMPLING***.  
+## Sampling *always* involves ***UNCERTAINTY***
+
+## *Sampling must be done in a way that allows us to make **INFERENCE** about about the part of the entire population* 
+
+---
+# **3 Keys to Remember:**  
+## 1. We are usually basing inference on a small sample from the population of interest.  
+## 2. We are obtaining *uncertain* estimates of the parameters (quantities) we are interested in.
+## 3. *Statistical inference is a rigorous method for drawing conlculsions about the quantities of interest (e.g., the numerical response of a species to a habitat attribute) in the face of uncertainty.*  
+
+*For a more detailed treatment, read Part I of:  
+MaKenzie, D.I., Nichols, J.D., Royle, J.A., Pollack, K.H., Bailey, L.L., and Hines, J.E. 2018. Occupancy estimation and modelling: inferring patterns and dynamics of species occurrence. Second Edition. Elsevier. Cambridge, Massachusetts, USA.
 
 
     </textarea>
