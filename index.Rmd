@@ -167,6 +167,18 @@ Many ecological systems are difficult to replicate, and replicates are rarely, i
 
 One can rarely, if ever, control all aspects of an ecological experiment 
 
+***Modelling allows us to make inference about populations outside the constraints of classical experimental design requirements.***
+
+**But...** SAMPLING DESIGN IS STILL IMPORTANT
+
+* Biased sampling will still bias results if not accounted for in the model
+* It is better to prevent bias with a good sampling design than try to address it in the models
+* Re-purposing exisitng data presents its own special challenges (e.g., tha BAM database)
+
+---
+class: center middle 
+
+# **Some Fundamental Principles**
 
 ---
 # System Dynamics and Inference ([MacKenzie et al. 2018](https://www.sciencedirect.com/book/9780124071971/occupancy-estimation-and-modeling#book-description))
@@ -303,4 +315,13 @@ where $r$ is the number of recruits to a population, $N_f$ is the number of fema
 *For a more detailed treatment, read Part I of:  
 MaKenzie, D.I., Nichols, J.D., Royle, J.A., Pollack, K.H., Bailey, L.L., and Hines, J.E. 2018. Occupancy estimation and modelling: inferring patterns and dynamics of species occurrence. Second Edition. Elsevier. Cambridge, Massachusetts, USA.
 
+---
+class: center middle 
 
+# **Two Major Advances**
+
+---
+# Detectability in Unmarked Populations 
+
+---
+# Accessibility of Bayesian Methods   
