@@ -319,10 +319,67 @@ class: center middle
 # **Two Major Advances**
 
 ---
-# Detectability in Unmarked Populations 
+# 1. Detectability in Unmarked Populations 
+## Why estimate detection probability? 
+## We know how many we saw; we need to estimate how many we missed!
+
+## `$$E(C_{i})=N_{i}p$$`
+
+## `$$N_{i}=\frac{C_{i}}{p}$$`
+
+### Where `\(E(C_{i})\)` is expected count at site `\(i\)`; `\(N_i\)` is number of individuals at site `\(i\)`; and `\(p\)` is detection probability 
+
+???
+Occupancy is a special case of this, where `\(N_i\)` is the number of sites, rather than the number of individuals 
 
 ---
-# Accessibility of Bayesian Methods   
+# Detectability illustrated ([MacKenzie et al. 2018](https://www.sciencedirect.com/book/9780124071971/occupancy-estimation-and-modeling#book-description))
+
+
+![](detectability.png)
+
+---
+name: binomial-detection
+# We can model the detection process using a binomial distribution
+
+## `$$C_i\sim Binomial(N, p),$$`
+##  Where `\(N\)` is the number of individuals (or visits), and `\(p\)` is the detection probability of each individual 
+
+## There are many ways to estimate `\(p\)` 
+* ### Mark-recapture (and 'unmarked' recapture) sampling
+* ### Distance sampling 
+
+---
+# Thinking Hierarchically
+
+## Modeling the eoclogical and observation processrd sumultaneously 
+
+## The ecological model for occupancy at site `\(i\)`: `$$N_i\sim Poisson(\lambda)$$` 
+## The observation model given `\(N\)` individuals at site `\(i\)`: `$$y_i \sim Binomial(N_i, p)$$` where `\(y_i\)` is the number if individuals detected ([see previous slide!](#binomial-detection))
+
+???
+2 key things to notice: 
+1. `\(N_i\)` is the connection between the 2 models, so that the count is conditional on the number of individuals 
+2. The true number of individuals `\(N_i\)` is a 'latent' variable, meaning it is not observed directly
+
+---
+# 2. Accessibility of Bayesian Methods   
+## In the 'old days', Bayesian anlysis was only accessible to statisticians with specialized computing skills 
+
+## Two things changed this: 
+### a. The development of WinBUGS software and the BUGS language ([Lunn et al. 2000](https://link.springer.com/article/10.1023/A:1008929526011)) 
+
+* BUGS = **B**ayesian inference **U**sing **G**ibbs **S**ampling 
+
+### b. The publishing of [Introtduction to WinBUGS for Ecologists](https://www.sciencedirect.com/book/9780123786050/introduction-to-winbugs-for-ecologists) by Mark Kéry 
+
+???
+* The BUGS language allows users with minimal coding experience to write Bayesian models as simple 'for' loops  
+
+* Mark Kéry developed an elegant, not-technical tutorial style, using data simulations, that has been much copied since  
+
+We are going to delve more deeply into Bayesian anlysis in a few weeks, but the key take-home here is that you will be able to see that it is no more difficult (and often much more intuitive and understnadbale) than frequentist analysis  
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
