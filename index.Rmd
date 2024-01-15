@@ -384,13 +384,13 @@ We are going to delve more deeply into Bayesian anlysis in a few weeks, but the 
 
 ---
 # A list of resources for Bayesian modeling in ecology 
-## [Introtduction to WinBUGS for Ecologists](https://www.sciencedirect.com/book/9780123786050/introduction-to-winbugs-for-ecologists) (Kéry 2010): UAlberta Library or [free download](https://www.sciencedirect.com/book/9780123786050/introduction-to-winbugs-for-ecologists)
-* ### [Online companion](https://www.vogelwarte.ch/modx/de/projekte/publikationen/bpa/kery-2010-book) 
+## [Introtduction to WinBUGS for Ecologists](https://www.sciencedirect.com/book/9780123786050/introduction-to-winbugs-for-ecologists) (Kéry 2010): UAlberta Library or [free download](https://www.sciencedirect.com/book/9780123786050/introduction-to-winbugs-for-ecologists) and [Online companion](https://www.vogelwarte.ch/modx/de/projekte/publikationen/bpa/kery-2010-book) 
 
 ## [Bayesian Populaiton Analysis Using WinBUGS: a Hierarchical Perspective](https://www.vogelwarte.ch/modx/de/projekte/publikationen/bpa/#:~:text=Bayesian%20population%20analysis%20using%20WinBUGS%20is%20a%20gentle%20introduction%20to,code%20should%20work%20as%20well) (Kéry and Schaub 2011) UAlberta Library
 
-## [Statistical Rethinking](https://www.taylorfrancis.com/books/mono/10.1201/9780429029608/statistical-rethinking-richard-mcelreath) (McElreath 2020): UAlberta Library 
-* ### [Free course through Github](https://github.com/rmcelreath/stat_rethinking_2024) 
+## [Statistical Rethinking](https://www.taylorfrancis.com/books/mono/10.1201/9780429029608/statistical-rethinking-richard-mcelreath) (McElreath 2020): UAlberta Library and [Free course through Github](https://github.com/rmcelreath/stat_rethinking_2024) 
+
+## [Bayesian Models: a Statistical Primer for Ecologists](https://press.princeton.edu/books/hardcover/9780691159287/bayesian-models) (Hobbs and Hooten 2015) UAlberta Library
 
 ---
 # Additional Resources 
@@ -400,4 +400,49 @@ We are going to delve more deeply into Bayesian anlysis in a few weeks, but the 
 
 ## [Hierarhcical Modeling and Inference in Ecology](https://www.sciencedirect.com/book/9780123740977/hierarchical-modeling-and-inference-in-ecology#book-description) (Royle and Dorazio 2008) Free download
 
+---
+# Always Remember: 
 
+# **Our models represent hypotheses and assumptions about  data generating processes!**  
+## We test these hypotheses against data and estimate the level of support 
+
+## Let's try walking though this process using a well-known theory... 
+
+---
+# The Theory of Island Biogeography ([MacArthur and Wilson 1967](https://www.jstor.org/stable/j.ctt19cc1t2)) 
+
+.pull-left[
+![](mc&w.jpg) 
+---
+
+
+] 
+
+.pull-right[
+![](ibg-plot.png)
+]
+
+???
+Theory states that a given island should have an equilibrium number of species represented by the intersection of immigration and extinction rates 
+
+This theory has become one of the primary underlying landscape models in landscape ecology (the patch-matrix model) 
+
+It is also the model underlying metapopulation theory 
+
+---
+# Model using the binomial distribution 
+
+### **If:** there are 20 bird species on the mainland capable of dispersing to a given island, then: $$y_i \sim Binomial(20, p)$$ 
+
+### What is this model saying (i.e., what is the hypothesis)? 
+
+### What process(es) are we modelling? 
+
+### What ecological assumptiong does it make? 
+
+### How would we test the model?  
+
+### What alternative models could we use? 
+
+---
+ 
